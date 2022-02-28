@@ -139,7 +139,7 @@ useEffect(()=>{
       <h1>
         Total Spending :{""}
         <span className='total'>
-          $
+          INR.
           {
             expenses.reduce((accu,curr)=>{
               return (accu+=parseInt(curr.amount))
