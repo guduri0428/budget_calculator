@@ -120,7 +120,7 @@ useEffect(()=>{
   return (
     <>
       { alert.show && <Alert type={alert.type} text={alert.text}/>}
-      <h1>Budget Calculator</h1>
+      <h1>Monthly Budget Calculator</h1>
       <main className='App'>
       <ExpenseForm  
           charge={charge}
